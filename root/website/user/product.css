@@ -1,0 +1,137 @@
+.product-page{
+    padding: 120px 0 50px;
+}
+.product-img img{
+    border-radius: 8px;
+}
+.product-title{
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+.product-price{
+    font-weight: 700;
+    color: #3577f0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.inner ul li{
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    margin: 35px 15px;
+}
+.quaintity span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+    background: #f6f7fb;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.quaintity span:hover{
+    border:2px solid #3577f0;
+    color: #3577f0;
+}
+.quaintity input{
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    margin: 0 10px;
+    text-align: center;
+}
+.product-action ul li a{
+    padding: 12px 38px;
+    width: 100%;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.product-action ul li a:hover{
+    transform: scale(1.05);
+}
+.product-action{
+    margin-top: 35px;
+}
+.product-action ul{
+    display: flex;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    
+}
+.product-action ul li{
+    list-style: none;
+    flex: 1;
+}
+.add-to-cart{
+    margin: 10px;
+}
+.add{
+    background-color: #3577f0;
+}
+.go{
+    background-color: #ff497c;
+}
+.single-feature{
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+    border-radius: 8px;
+}
+.single-icon{
+    width: 77px;
+    height: 77px;
+    line-height: 77px;
+    margin-right: 16px;
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #3577f0;
+}
+.single-icon i{
+    width: 77px;
+}
+.single-icon::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f6f7fb;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.single-content h6{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.single-content p{
+    font-size: 15px;
+    color: #777777;
+}
+.single-product-features{
+    background-color: #f6f7fb;
+    padding-top: 30px;
+}
+.cut-price-product{
+    color: #d6d6d6;
+    text-decoration: line-through;
+    margin-left: 0;
+    font-size: 20px;
+    margin-right: 5px;
+}

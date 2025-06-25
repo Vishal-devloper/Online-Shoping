@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="pictures/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+  <script src="..//user/commonjs/common.js"></script>
+  <title>Gen-G</title>
+</head>
+
+<body>
+  <div class="">
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="brand">
+          <a class="navbar-brand" href="index.html">
+            <img src="pictures/10007.png" alt="" srcset="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-table-cells-large"></i>
+                Categories
+              </a>
+              <div class="dropdown-menu category">
+                <a class="dropdown-item" href="productlisting.html?categoryId=1">Fashion</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=2">Electronics</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=3">Home Decor</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=4">Medicine</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=5">Furniture</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=6">Crafts</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=7">Accessories</a>
+                <a class="dropdown-item" href="productlisting.html?categoryId=8">Handicraft</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productlisting.html?categoryId=0">
+                <i class="fa-solid fa-bag-shopping"></i> Shop
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-percent"></i> Deals
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-headset"></i> Support
+              </a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <div class="user ">
+            <a href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </div>
+          <div class="user dropdown">
+            <a href="" class="nav-link dropdown" data-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-user-tie"></i>
+            </a>
+            <div class="dropdown-menu  category drop-change">
+              <a class="dropdown-item bottom-border" href="account.html">My Account</a>
+              <a class="dropdown-item bottom-border" href="#">Support</a>
+              <a class="dropdown-item" href="#">Language</a>
+              <div id="verify">
+                <a href="login.html">
+                  <button class="hero-button">Login</button>
+                </a>
+                <div class="account-footer">No account yet?
+                  <a href="signup.html">REGISTER HERE.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Main Content -->
+    <div class="account-wrap">
+      <div class="account-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="home-account">
+                <ul>
+                  <li class="go-home">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>My Account</li>
+                </ul>
+              </div>
+              <div class="account-explore">
+                <h3>Explore All Products</h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="account-thumb">
+                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-45.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="account-dashboard-area">
+      <div class="container">
+        <div class="account-dashboard-wrap">
+          <div class="dashboard-author">
+            <div class="">
+              <div class="thumbnail-media">
+                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/author1.png" alt="">
+              </div>
+              <div class="media-body">
+                <h5>Hello Vishal</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-md-4">
+            <aside class="axil-dashboard-aside">
+              <nav class="axil-dashboard-nav">
+                <div class="nav nav-tabs" role="tablist">
+                  <a class="nav-item nav-link active" data-bs-toggle="tab" href="#nav-dashboard" role="tab"
+                    aria-selected="true">
+                    <i class="fas fa-th-large"></i>Dashboard
+                  </a>
+                  <a class="nav-item nav-link" data-bs-toggle="tab" href="#nav-orders" role="tab" aria-selected="false"
+                    tabindex="-1">
+                    <i class="fas fa-shopping-basket"></i>Orders
+                  </a>
+                  <a class="nav-item nav-link" data-bs-toggle="tab" href="#nav-downloads" role="tab"
+                    aria-selected="false" tabindex="-1">
+                    <i class="fas fa-file-download"></i>Downloads
+                  </a>
+                  <a class="nav-item nav-link" data-bs-toggle="tab" href="#nav-address" role="tab" aria-selected="false"
+                    tabindex="-1">
+                    <i class="fas fa-home"></i>Addresses
+                  </a>
+                  <a class="nav-item nav-link" data-bs-toggle="tab" href="#nav-account" role="tab" aria-selected="false"
+                    tabindex="-1">
+                    <i class="fas fa-user"></i>Account Details
+                  </a>
+                  <a class="nav-item nav-link" href="login.html"  aria-selected="false" tabindex="-1"
+                    role="tab">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>Logout
+                  </a>
+                </div>
+              </nav>
+            </aside>
+          </div>
+          <div class="col-xl-9 col-md-8">
+            <div class="tab-content">
+              <div class="tab-pane fade active show" id="nav-dashboard" role="tabpanel">
+                <div class="axil-dashboard-overview">
+                  <div class="welcome-text">Hello Annie
+                  </div>
+                  <p>
+                    From your account dashboard you can view your recent orders, manage your shipping and billing
+                    addresses, and edit your password and account details.
+                  </p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-orders" role="tabpanel">
+                <div class="axil-dashboard-order">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Order</th>
+                          <th scope="col">Date</th>
+                          <th scope="col">Status</th>
+                          <th scope="col">Total</th>
+                          <th scope="col">Actions</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">#6523</th>
+                          <td>September 10, 2020</td>
+                          <td>Processing</td>
+                          <td>$326.63 for 3 items</td>
+                          <td>
+                            <a href="#" class="axil-btn view-btn">View</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#6523</th>
+                          <td>September 10, 2020</td>
+                          <td>On Hold</td>
+                          <td>$326.63 for 3 items</td>
+                          <td>
+                            <a href="#" class="axil-btn view-btn">View</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#6523</th>
+                          <td>September 10, 2020</td>
+                          <td>Processing</td>
+                          <td>$326.63 for 3 items</td>
+                          <td>
+                            <a href="#" class="axil-btn view-btn">View</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#6523</th>
+                          <td>September 10, 2020</td>
+                          <td>Processing</td>
+                          <td>$326.63 for 3 items</td>
+                          <td>
+                            <a href="#" class="axil-btn view-btn">View</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#6523</th>
+                          <td>September 10, 2020</td>
+                          <td>Processing</td>
+                          <td>$326.63 for 3 items</td>
+                          <td>
+                            <a href="#" class="axil-btn view-btn">View</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-downloads" role="tabpanel">
+                <div class="axil-dashboard-order">
+                  <p>You don't have any download</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-address" role="tabpanel">
+                <div class="axil-dashboard-address">
+                  <p class="notice-text">The following addresses will be used on the checkout page by default.</p>
+                  <div class="row ">
+                    <div class="col-lg-6">
+                      <div class="address-info mb--40">
+                        <div class="addrss-header d-flex align-items-center justify-content-between">
+                          <h4 class="title mb-0">Shipping Address</h4>
+                          <a href="#" class="address-edit">
+                            <i class="far fa-edit"></i>
+                          </a>
+                        </div>
+                        <ul class="address-details">
+                          <li>Name: Annie Mario</li>
+                          <li>Email: annie@example.com</li>
+                          <li>Phone: 1234 567890</li>
+                          <li class="mt--30">7398 Smoke Ranch Road
+                            <br>
+                            Las Vegas, Nevada 89128
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="address-info">
+                        <div class="addrss-header d-flex align-items-center justify-content-between">
+                          <h4 class="title mb-0">Billing Address</h4>
+                          <a href="#" class="address-edit">
+                            <i class="far fa-edit"></i>
+                          </a>
+                        </div>
+                        <ul class="address-details">
+                          <li>Name: Annie Mario</li>
+                          <li>Email: annie@example.com</li>
+                          <li>Phone: 1234 567890</li>
+                          <li class="mt--30">7398 Smoke Ranch Road
+                            <br>
+                            Las Vegas, Nevada 89128
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-account" role="tabpanel">
+                <div class="col-lg-9">
+                  <div class="axil-dashboard-account">
+                    <form class="account-details-form">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" class="form-control" value="Annie">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" value="Mario">
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-group mb--40">
+                            <label>Country/ Region</label>
+                            <select class="select2">
+                              <option value="1">United Kindom (UK)</option>
+                              <option value="1">United States (USA)</option>
+                              <option value="1">United Arab Emirates (UAE)</option>
+                              <option value="1">Australia</option>
+                            </select>
+                            <p class="b3 mt--10">
+                              This will be how your name will be displayed in the account section and
+                              in reviews
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <h5 class="title">Password Change</h5>
+                          <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" value="123456789101112131415">
+                          </div>
+                          <div class="form-group">
+                            <label>New Password</label>
+                            <input type="password" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label>Confirm New Password</label>
+                            <input type="password" class="form-control">
+                          </div>
+                          <div class="form-group mb--0">
+                            <input type="submit" class="axil-btn" value="Save Changes">
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main content ends -->
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row extra-padding">
+            <div class="col-lg-4">
+              <div class="padding-extra">
+                <div class="discount">
+                  <h3>Stay Up To Date</h3>
+                  <p>Subscribe to our newsletter and get
+                    <span>20% discount</span> offer in your first order
+                  </p>
+                </div>
+                <div class="inform">
+                  <div class="input-box">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button class="">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-list hr-maker">
+                <ul>
+                  <a href="">
+                    <li>About Us</li>
+                  </a>
+                  <a href="">
+                    <li>Delivery</li>
+                  </a>
+                  <a href="">
+                    <li>Information</li>
+                  </a>
+                  <a href="">
+                    <li>Privacy Policy</li>
+                  </a>
+                  <a href="">
+                    <li>Terms & Conditions</li>
+                  </a>
+                  <a href="">
+                    <li>Support Center</li>
+                  </a>
+                  <a href="">
+                    <li>Contact Us</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-list">
+                <ul>
+                  <a href="">
+                    <li>About Us</li>
+                  </a>
+                  <a href="">
+                    <li>Delivery</li>
+                  </a>
+                  <a href="">
+                    <li>Information</li>
+                  </a>
+                  <a href="">
+                    <li>Privacy Policy</li>
+                  </a>
+                  <a href="">
+                    <li>Terms & Conditions</li>
+                  </a>
+                  <a href="">
+                    <li>Support Center</li>
+                  </a>
+                  <a href="">
+                    <li>Contact Us</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- logout script -->
+  <script>
+    $(document).ready(function () {
+      $("#logout").on("click", function () {
+        localStorage.clear();
+        window.location.href="login.html";
+      });
+
+
+    });
+  </script>
+
+
+</body>
+
+</html>

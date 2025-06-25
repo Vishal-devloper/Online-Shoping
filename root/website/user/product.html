@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <link rel="shortcut icon" href="pictures/favicon.png" type="image/x-icon">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="..//user/commonjs/common.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+    <script src="product.js"></script>
+    <title>Gen-G</title>
+</head>
+
+<body>
+    <div class="">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="brand"><a class="navbar-brand" href="index.html"><img src="pictures/10007.png" alt=""
+                            srcset=""></a></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-table-cells-large"></i> Categories
+                            </a>
+                            <div class="dropdown-menu category">
+                                <a class="dropdown-item" href="productlisting.html?categoryId=1">Fashion</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=2">Electronics</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=3">Home Decor</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=4">Medicine</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=5">Furniture</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=6">Crafts</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=7">Accessories</a>
+                                <a class="dropdown-item" href="productlisting.html?categoryId=8">Handicraft</a>
+
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productlisting.html?categoryId=0"><i class="fa-solid fa-bag-shopping"></i>
+                                Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-percent"></i> Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-headset"></i> Support</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <div class="user ">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                    <div class="user dropdown">
+                        <a href class="nav-link dropdown" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </a>
+                        <div class="dropdown-menu  category drop-change">
+                            <a class="dropdown-item bottom-border" href="account.html">My Account</a>
+                            <a class="dropdown-item bottom-border" href="#">Support</a>
+                            <a class="dropdown-item" href="#">Language</a>
+                            <div id="verify">
+                                <a href="login.html">
+                                    <button class="hero-button">Login</button>
+                                </a>
+                                <div class="account-footer">No account yet?
+                                    <a href="signup.html">REGISTER HERE.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- main section starts -->
+        <div class="product-page">
+            <div class="container">
+                <div class="space">
+                    <div class="row">
+                        <div class="col-lg-6 product-img" id="productImage">
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="single-product">
+                                <div class="inner">
+                                    <h2 class="product-title" id="productName"></h2>
+                                    <span class="cut-price-product" id="productPrice"></span>
+                                    <span class="product-price" id="discountedPrice">$120.00</span>
+                                    <ul>
+                                        <li id="productDiscription">Meet Echo Dot - Our most compact smart speaker that
+                                            fits perfectly into small spaces.</li>
+                                    </ul>
+                                    <div class="quaintity">
+                                        <h6></h6>
+                                        <span id="decrease">-</span>
+                                        <input type="text" value="1" inputmode="numeric" min="0" max="10"
+                                            id="quaintity-input">
+                                        <span id="increase">+</span>
+                                    </div>
+                                    <div class="product-action">
+                                        <ul>
+                                            <li class="add-to-cart"><a href="" class="go"><i
+                                                        class="fa-solid fa-bag-shopping"></i> Buy Now</a></li>
+                                            <li class="add-to-cart"><a href="" class="add"><i
+                                                        class="fa-solid fa-cart-plus"></i> Add to Cart</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-product-features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-feature">
+                            <div class="single-icon">
+                                <i class="fa-solid fa-dolly"></i>
+                            </div>
+                            <div class="single-content">
+                                <h6>Easy Return</h6>
+                                <p>Anytime you can return the product without any payment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-feature">
+                            <div class="single-icon" style="color: #ff497c;">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <div class="single-content">
+                                <h6>Quality Service</h6>
+                                <p>We are dedicated to give you quality service for your happiness</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-feature">
+                            <div class="single-icon" style="color: #8c71db;">
+                                <i class="fa-solid fa-box"></i>
+                            </div>
+                            <div class="single-content">
+                                <h6>Original Product</h6>
+                                <p>We deliver you each and every prodeuct is original</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer section -->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row extra-padding">
+                        <div class="col-lg-4">
+                            <div class="padding-extra">
+                                <div class="discount">
+                                    <h3>Stay Up To Date</h3>
+                                    <p>Subscribe to our newsletter and get <span>20% discount</span> offer in your first
+                                        order</p>
+                                </div>
+                                <div class="inform">
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Enter Your Email">
+                                        <button class="">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-list hr-maker">
+                                <ul>
+                                    <a href="">
+                                        <li>About Us</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Delivery</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Information</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Privacy Policy</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Terms & Conditions</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Support Center</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Contact Us</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-list">
+                                <ul>
+                                    <a href="">
+                                        <li>About Us</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Delivery</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Information</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Privacy Policy</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Terms & Conditions</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Support Center</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Contact Us</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>
