@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#adminUser").text(adminName);
+    $("#adminEmail").text(adminEmail);
+    $("#adminInputName").val(adminName);
+    $("#adminInputEmail").val(adminEmail);
+    $("#adminInputPhone").val(adminPhone);
+});
+$(document).on("click","#logout",function(){
+    localStorage.clear();
+});

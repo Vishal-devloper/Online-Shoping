@@ -1,0 +1,43 @@
+a:hover{
+    text-decoration: none;
+}
+.topbar{
+    position: fixed;
+    width: 100%;
+}
+.left-sidebar{
+    position: fixed;
+}
+.page-wrapper{
+    margin-top: 60px;
+    position: relative;
+}
+.white-box .extra-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px !important;
+    margin: 0px 15px;
+}
+.extra-flex button{
+    margin-right: 20px;
+}
+.brandInput,.CategoryInput{
+    width: 150px;
+    margin-left: auto;
+    margin-right:15px;
+    display: none;
+}
+#cancelBrand,#cancelCategory{
+    display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.place{
+    min-height: 200px !important;
+}
+#img-preview img{
+    border-radius: 15px;
+}
